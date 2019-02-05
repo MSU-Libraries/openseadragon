@@ -1330,7 +1330,7 @@ function updateTile( tiledImage, haveDrawn, drawLevel, x, y, level, levelOpacity
             tile,
             x, y,
             level,
-            levelOpacity,
+            1, /// setting this to 1 will remove the shadow when zooming out of images
             currentTime
         );
 
